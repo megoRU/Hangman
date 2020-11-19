@@ -82,7 +82,7 @@ public class Main {
         int size = word.size() - 1;
         StringBuilder sb = new StringBuilder(word.get(size));
         for (int i = 0; i < index.size(); i++) {
-            sb.replace(index.get(i), index.get(i), String.valueOf(strToArray[length]));
+            sb.replace(index.get(i), index.get(i) + 1, String.valueOf(strToArray[length]));
         }
         word.add(sb.toString());
         index.clear();
