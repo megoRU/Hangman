@@ -16,14 +16,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         String word = "программирование";
-        // char x = '_';
         strToArray = WORD.toCharArray(); // Преобразуем строку str в массив символов (char)
-//        for (int i = 0; i < strToArray.length; i++) {
-//          // System.out.println(strToArray[i]);
-//        }
         System.out.println(WORD);
-        StringBuffer sb = new StringBuffer("Юра");
-        sb.replace(1, 6, "ProgLang");
 
         System.out.println(padLeftZeros(WORD.length()));
         while (true) {
